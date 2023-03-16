@@ -3,7 +3,7 @@ package com.liuhanze.design_patterns;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import com.liuhanze.design_patterns.visitor.demo2.VisitorMain;
+import com.liuhanze.design_patterns.visitor.demo3.VisitorMain;
 import com.liuhanze.iutil.log.ILog;
 
 public class MainActivity extends AppCompatActivity {

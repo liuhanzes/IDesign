@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * ObjectStructure类，能枚举它的元素，可以提供一个高层的接口以允许访问者访问它的元素。
  */
-public class ObjectStructure {
+class ObjectStructure {
     private List<Element> elementList = new ArrayList<>();
 
 
