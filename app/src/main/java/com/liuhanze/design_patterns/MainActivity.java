@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.liuhanze.design_patterns.flyweight.demo2.FlyweightMain;
 import com.liuhanze.design_patterns.responsibility.demo1.ResponsibilityMain;
 import com.liuhanze.design_patterns.visitor.demo3.VisitorMain;
 import com.liuhanze.iutil.log.ILog;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        new ResponsibilityMain().main();
+        new FlyweightMain().main();
     }
 
     private String  testFor(){
