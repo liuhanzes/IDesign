@@ -12,5 +12,4 @@ class ConcreteFlyweight implements Flyweight{
         ILog.LogDebug("具体的flyweight : "+extendState);
     }
 
-
 }
