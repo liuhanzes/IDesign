@@ -1,5 +1,8 @@
 package com.liuhanze.design_patterns.interpreter.demo1;
 
+/**
+ * 环境角色
+ */
 class MContext {
 
     private String input;
