@@ -5,7 +5,6 @@ package com.liuhanze.design_patterns.command.demo1;
  */
 public class ConcreteCommand extends Command{
 
-
     public ConcreteCommand(Receiver receiver) {
         super(receiver);
     }
