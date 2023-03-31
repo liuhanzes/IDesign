@@ -1,6 +1,7 @@
 package com.liuhanze.design_patterns.factory.abstracts.computer;
 
 import java.util.ArrayList;
+import java.util.BitSet;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;

@@ -3,6 +3,8 @@ package com.liuhanze.design_patterns;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.TypedValue;
+import android.widget.TextView;
 
 import com.liuhanze.design_patterns.decorator.demo2.DecoratorMain;
 import com.liuhanze.design_patterns.flyweight.demo2.FlyweightMain;
@@ -14,12 +16,14 @@ import com.liuhanze.iutil.log.ILog;
 public class MainActivity extends AppCompatActivity {
 
     private volatile int temp = 0;
-    private  volatile  boolean  flag = false;
+    private volatile boolean  flag = false;
+    private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        textView = findViewById(R.id.tv_tv);
         new DecoratorMain().main();
     }
 
