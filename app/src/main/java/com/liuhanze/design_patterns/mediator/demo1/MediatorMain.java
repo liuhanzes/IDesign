@@ -29,7 +29,7 @@ public class MediatorMain {
     public void main(){
 
         //为什么同事类要使用构造函数注入中介者，而中介者使用getter/setter方式注入同事类呢？这是因为同事类必须有中介者，
-        // 而中介者却可以只有部分同事类。
+        //而中介者却可以只有部分同事类。
         ConcreteMediator mediator = new ConcreteMediator();
         ConcreteColleague1 colleague1 = new ConcreteColleague1(mediator);
         ConcreteColleague2 colleague2 = new ConcreteColleague2(mediator);

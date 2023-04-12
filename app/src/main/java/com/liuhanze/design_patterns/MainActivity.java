@@ -10,6 +10,7 @@ import com.liuhanze.design_patterns.decorator.demo2.DecoratorMain;
 import com.liuhanze.design_patterns.flyweight.demo2.FlyweightMain;
 import com.liuhanze.design_patterns.interpreter.demo3.InterpreterMain;
 import com.liuhanze.design_patterns.responsibility.demo1.ResponsibilityMain;
+import com.liuhanze.design_patterns.test.demo1.DeductionClient;
 import com.liuhanze.design_patterns.visitor.demo3.VisitorMain;
 import com.liuhanze.iutil.log.ILog;
 
@@ -24,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textView = findViewById(R.id.tv_tv);
-        new DecoratorMain().main();
     }
 
     private String  testFor(){
