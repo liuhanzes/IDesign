@@ -21,6 +21,7 @@ package com.liuhanze.design_patterns.proxy.demo3;
  * 原文链接：https://blog.csdn.net/jjclove/article/details/124386972
  *
  * <img width="500" height="wrap_content" src="../../../../../../res/mipmap-xhdpi/aop1.png"/>
+ * <br/>
  * 一般而言，我们管切入到指定类指定方法的代码片段称为切面，而切入到哪些类、哪些方法则叫切入点。有了AOP，我们就可以把几
  * 个类共有的代码，抽取到一个切片中，等到需要时再切入对象中去，从而改变其原有的行为。
  * 这样看来，AOP其实只是OOP的补充而已。OOP从横向上区分出一个个的类来，而AOP则从纵向上向对象中加入特定的代码。有了AOP，

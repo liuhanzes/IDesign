@@ -22,6 +22,13 @@ public class BridgeMain {
 
     public void main(){
 
+        /**
+         * 桥接模式个人总结：
+         * 抽象+抽象 组合
+         * 抽象的行人对象+抽象的行为
+         * 例如：抽象的信息(包含，普通消息，加急消息)+抽象的信息发送方式(短信，邮件)
+         */
+
         Implementor implementorA = new ConcreteImplementorA();
         Implementor implementorB = new ConcreteImplementorB();
 
